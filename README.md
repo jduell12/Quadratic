@@ -1,1 +1,3 @@
 # Quadratic
+1. Class that has 3 double data members for a, b and c. (for the quadratic equation in the form ax^2 + bx + c). It has a default constructor that initializes each coeficient to 1.0. A constructor that takes parameters and uses them to initialize the data members. Set methods for each data member. Method called valueFor that takes a double as a parameter to use for the value of x and it returns the value of the quadratic using that value of x.  Method called numRealRoots that returns how many real roots the quadratic has based on the expression b^2 - 4ac. 
+2. Function called meanValueFor that takes a vector of pointers to Quadratic class and a value to use for x. It returns the average value of all the Quadratics pointed to by the vector's elements. 
